@@ -1,0 +1,104 @@
+/* 
+font-family: 'DM Serif Display', serif;
+*/
+@font-face {
+    font-family: 'amelia';
+    src: url(../Fonts/Amelia_Giovani/Amelia\ Giovani.ttf),
+         url(../Fonts/Amelia_Giovani/Amelia\ Giovani.otf);
+    /* Add other font properties like font-weight and font-style if needed */
+  }
+
+@font-face {
+    font-family: 'engry';
+    src: url(../Fonts/engry.otf);
+    /* Add other font properties like font-weight and font-style if needed */
+  }  
+
+/*------------Home--------------*/
+/* Container holding the image and the text */
+.container-home {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+/* Centered text */
+.centered-home-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Centered text font*/
+.home-font {
+    font-family: 'amelia', serif;
+    font-size: 6vw;
+    color: #B36957;
+    margin-bottom: 5px;
+}
+
+/* Centered text sub font*/
+.home-sub-font {
+    font-family: 'Zen Loop' , serif;
+    font-size: 4vw;
+    color: #B36957;
+    margin-top: 5px;
+}
+
+
+
+/*------------PROPOSAL VIDEO PART--------------*/
+.container-video {
+    background-color: black;
+    padding: 5px;
+}
+
+/* .vid-player {
+    min-height: 177.19px;
+} */
+
+
+
+/*------------IMAGE COLLAGE PART--------------*/
+.container-collage {
+    display: flex;
+}
+
+.container-collage img {
+    width: 50%; /* Each image takes up 25% of the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/*------------RSVP PART--------------*/
+.container-rsvp {
+    position: relative;
+    overflow: hidden;
+}
+
+.container-rsvp img {
+    width: 100%;
+    display: block;
+}
+
+.centered-rsvp-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.rsvp-font {
+    font-family: 'engry', serif;
+    font-size: 10vw;
+    color: #7E554A;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: #8f867c;
+}
