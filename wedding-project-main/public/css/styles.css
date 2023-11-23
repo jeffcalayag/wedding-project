@@ -1,0 +1,217 @@
+/* 
+font-family: 'DM Serif Display', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+@font-face {
+    font-family: 'amelia';
+    src: url(../Fonts/Amelia_Giovani/Amelia\ Giovani.ttf),
+         url(../Fonts/Amelia_Giovani/Amelia\ Giovani.otf);
+    /* Add other font properties like font-weight and font-style if needed */
+  }
+
+@font-face {
+    font-family: 'engry';
+    src: url(../Fonts/engry.otf);
+    /* Add other font properties like font-weight and font-style if needed */
+  }  
+
+/*------------Home--------------*/
+/* Container holding the image and the text */
+.container-home {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+/* Centered text */
+.centered-home-txt {
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Centered text font*/
+.home-font {
+    font-family: 'amelia', serif;
+    font-size: 6vw;
+    color: #B36957;
+    margin-bottom: 5px;
+}
+.homepage-title {
+    font-family: 'amelia', serif;
+    font-size: 9vw;
+    color: #B36957;
+    margin-bottom: 5px;
+}
+/*for the wedding card page 2*/
+h2.home-font {
+    font-size: 5vw;
+    font-weight: bold;
+}
+/* Centered text sub font*/
+.homepage-sub {
+    font-family: 'Zen Loop' , serif;
+    font-size: 5vw;
+    color: #B36957;
+    margin-top: 5px;
+}
+.home-sub-font {
+    font-family: 'Zen Loop' , serif;
+    font-size: 5vw;
+    color: #B36957;
+    margin-top: 5px;
+}
+
+
+/* Font size for desktop/laptop screens */
+@media screen and (min-width: 768px) {
+    p.home-sub-font {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #B36957;
+    }
+}
+
+/* Font size for mobile screens */
+@media screen and (max-width: 767px) {
+    p.home-sub-font {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        color: #B36957;
+    }
+}
+
+
+/*------------PROPOSAL VIDEO PART--------------*/
+.container-video {
+    background-color: black;
+    padding: 5px;
+}
+
+/* .vid-player {
+    min-height: 177.19px;
+} */
+
+
+
+/*------------IMAGE COLLAGE PART--------------*/
+.container-collage {
+    display: flex;
+}
+
+.container-collage img {
+    width: 50%; /* Each image takes up 25% of the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/*------------RSVP PART--------------*/
+.container-rsvp {
+    position: relative;
+    overflow: hidden;
+}
+
+.container-rsvp img {
+    width: 100%;
+    display: block;
+}
+
+.centered-rsvp-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.rsvp-font {
+    font-family: 'engry', serif;
+    font-size: 10vw;
+    color: #7E554A;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+a, a:visited {
+    text-decoration: underline;
+    text-decoration-color: #8f867c;
+    color: inherit; /* This ensures the color is inherited from the parent */
+}
+
+
+/*------------WEDDING CARD PART--------------*/
+.container-wedding-card {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .text-header {
+    text-align: center;
+    font-family: 'amelia', serif;
+    font-size: 5vw;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+  .text-container {
+    flex: 1;
+    padding: 10px;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    display: flex;
+  }
+
+  .card-txt {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    color: #B36957;
+  }
+
+  .circles-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure the circles are above the image */
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    background-color: #ccc; /* Default color for unfilled circles */
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px; /* Adjust margin as needed */
+}
+
+.c1 {
+    background-color: #8a584c;
+}
+
+.c2 {
+    background-color: #8fa6ac;
+}
+
+.c3 {
+    background-color:  #f5eacf;
+}
+
+.c4 {
+    background-color: #ceb793;
+}
+
+.c5 {
+    background-color: #85865f;
+}
+
+.c6 {
+    background-color: #4f583d;
+}
